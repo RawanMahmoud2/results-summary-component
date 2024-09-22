@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    color: #333;
+    text-align: center;
+}
+
+.result {
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #6340FB, #332EEA);
+    border-radius: 10px;
+    color: white;
+}
+
+.score {
+    margin-bottom: 10px;
+}
+
+.score-circle {
+    background-color: #432DDF;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.score-number {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.score-text {
+    font-size: 0.7em;
+    margin: 0;
+}
+
+.summary {
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.item-reaction {
+    background-color: #FEF0F0;
+}
+
+.item-memory {
+    background-color: #F0FEF0;
+}
+
+.item-verbal {
+    background-color: #F0F0FE;
+}
+
+.item-visual {
+    background-color: #F0F0FE;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #303B5A;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1em;
+}
